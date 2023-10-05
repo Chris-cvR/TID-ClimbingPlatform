@@ -38,21 +38,62 @@ button {
   margin-bottom: 30px;
 }
 
+.welcome-text{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .Login-image {
     display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
-    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-top: -60px;
+    margin-bottom: -150px;
 }
 
 .login-logo {
-  max-width: 100%; /* Ensure the image doesn't exceed the container's width */
-    max-height: 100%; /* Ensure the image doesn't exceed the container's height */
-    width: auto; /* Set width to auto to maintain aspect ratio */
-    height: auto; /* Set height to auto to maintain aspect ratio */
-    /* Adjust the following properties to increase the image size as desired */
-    width: 80%; /* Example: Set the image width to 80% of the container */
-    height: auto; /* Ensure the image doesn't exceed the container's height */
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
+}
+
+.custom-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 3px;
+  font-size: 16px; 
+  margin: auto;
+}
+
+.custom-button {
+  width: 50%;
+  display: block;
+  margin: 10px auto;
+  align-self: center;
+  text-align: center;
+}
+
+.custom-input {
+  width: 50%;
+  padding: 3px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.custom-button {
+  width: 50%;
+  margin-left: 174px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 /* Color found for comment boxes: /* #313031 */ 

@@ -1,0 +1,15 @@
+.custom-navbar {
+    border-bottom: 1px solid black; /* Add a 1px solid black bottom border */
+  }
+
+.custom-text {
+    margin-right: 60px;
+}
+
+.card-width {
+  width: 35rem;
+}
+
+.card-margin{
+  margin-bottom: 30px;
+}

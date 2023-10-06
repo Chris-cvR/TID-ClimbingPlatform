@@ -75,6 +75,7 @@ button {
   margin: 10px auto;
   align-self: center;
   text-align: center;
+  margin-left: 174px;
 }
 
 .custom-input {
@@ -84,16 +85,24 @@ button {
   margin-bottom: 10px;
 }
 
-.custom-button {
-  width: 50%;
-  margin-left: 174px;
-}
-
 .input-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.feed-buttons {
+  width: 245px;
+}
+
+h6 {
+  margin-left: 10px;
+  font-size: small !important;
+}
+
+.card-text {
+  margin-left: 18px;
 }
 
 /* Color found for comment boxes: /* #313031 */ 

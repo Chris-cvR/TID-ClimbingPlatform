@@ -42,31 +42,65 @@
           alt=""
         />
   </div>
-    
-    <!-- Register Form -->
-    <div class="container w-50 mt-5">
 
-        <p class="welcome-text"><i class="fas fa-home me-3"></i> Welcome to PeakPulse!</p>
-    
-        <div>
-        <form action="./Feed.html">
+<!-- Register Form -->
+<div class="container w-50 mt-5">
+
+  <p class="welcome-text"><i class="fas fa-home me-3"></i> Welcome to PeakPulse!</p>
+
+  <div class="register">
+    <form action="./Feed.html">
+
+      <div class="row">
+
+        <!-- Input Fields Column -->
+        <div class="col-md-8">
           <div class="mb-3 custom-input">
-            <input type="name" class="form-control" id="exampleInputEmail" placeholder="First Name">
+            <input type="name" class="form-control" id="exampleInputName" placeholder="First Name">
           </div>
 
           <div class="mb-3 custom-input">
-            <input type="name" class="form-control" id="exampleInputPassword" placeholder="Last Name">
+            <input type="name" class="form-control" id="exampleInputName" placeholder="Last Name">
           </div>
 
-        </form>
+          <div class="mb-3 custom-input">
+            <input type="name" class="form-control" id="exampleInputEmail" placeholder="E-Mail">
+          </div>
 
-        <form action="./Register.html">
-          <button type="Register" class="btn btn-primary custom-button">Register</button>
-        </form>
+          <div class="mb-3 custom-input">
+            <input type="name" class="form-control" id="exampleInputPassword" placeholder="Password">
+          </div>
+
+          <div class="mb-3 custom-input">
+            <input type="name" class="form-control" id="exampleInputPassword" placeholder="Repeat Password">
+          </div>
+        </div>
+
+        <!-- Experience Level Column -->
+        <div class="col-md-4">
+          <div class="experience-container">
+            <span class="experience-label">Choose your experience level:</span>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="beginner" name="experience" value="beginner">
+              <label class="form-check-label" for="beginner">Beginner</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="intermediate" name="experience" value="intermediate">
+              <label class="form-check-label" for="intermediate">Intermediate</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="advanced" name="experience" value="advanced">
+              <label class="form-check-label" for="advanced">Advanced</label>
+            </div>
+          </div>
+        </div>
+
       </div>
+      <button type="submit" class="btn btn-primary custom-button">Register</button>
+    </form>
+  </div>
 
-    </div>
+</div>
 
-    
 </body>
 </html>

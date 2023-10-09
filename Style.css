@@ -120,4 +120,26 @@ h6 {
     color: lightgray;
 }
 
+input[type='radio'] {
+  box-sizing: border-box;
+  appearance: none;
+  background: white;
+  outline: 1px solid lightgray;
+  border: 1px solid white;
+  width: 16px;
+  height: 16px;
+}
+
+input[type='radio']:checked {
+  background: #333;
+}
+
+.experience-container{
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  left: -120px;
+  background: white;
+}
 /* Color found for comment boxes: /* #313031 */ 

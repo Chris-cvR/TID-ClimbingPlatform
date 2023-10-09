@@ -30,6 +30,22 @@
        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
        crossorigin="anonymous"
      ></script>
+    <script>
+      function checkFields() {
+        event.preventDefault();
+        var firstName = document.getElementById('exampleInputEmail').value;
+        var lastName = document.getElementById('exampleInputPassword').value;
+
+        if (!firstName || !lastName) {
+          document.getElementById('popup').style.display = 'block';
+        }
+      }
+
+      function closePopup() {
+        document.getElementById('popup').style.display = 'none';
+      }
+    </script>
+     
 </head>
 <body>
 
@@ -49,7 +65,7 @@
         <p class="welcome-text"><i class="fas fa-home me-3"></i> Welcome to PeakPulse!</p>
     
         <div>
-        <form action="./Feed.html">
+        <form >
           <div class="mb-3 custom-input">
             <input type="name" class="form-control" id="exampleInputEmail" placeholder="First Name">
           </div>
@@ -58,8 +74,14 @@
             <input type="name" class="form-control" id="exampleInputPassword" placeholder="Last Name">
           </div>
 
-          <button type="Login" class="btn btn-primary custom-button">Login</button>
+          <button type="Login" class="btn btn-primary custom-button" onclick="checkFields()">Login</button>
         </form>
+
+        <!-- Popup message -->
+        <div class="popup" id="popup">
+          <div class="close-btn" onclick="closePopup()">x</div>
+          <p>Please enter your username and password.</p>
+        </div>
 
         <form action="./Register.html">
           <button type="Register" class="btn btn-primary custom-button">Register</button>

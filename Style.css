@@ -1,63 +1,62 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 
 body {
-  font-family: 'Montserrat', sans-serif !important;
-  background-color: #efe9e4 !important;
+  font-family: "Montserrat", sans-serif !important;
+  background-color: hsl(27, 26%, 92%) !important;
 }
 
 button {
-  color: #efe9e4 !important;
-  background-color: #D67229 !important;
-  border-color: #D67229 !important;
+  color: hsl(27, 26%, 92%) !important;
+  background-color: hsl(25, 68%, 50%) !important;
+  border-color: hsl(25, 68%, 50%) !important;
 }
 
 .custom-navbar {
-    border-bottom: 1px solid lightgray;
-    background-color: #E3E0de;
-  }
+  border-bottom: 1px solid hsl(0, 0%, 83%);
+  background-color: hsl(24, 8%, 88%);
+}
 
 .custom-text {
-    margin-right: 60px;
-    color: #313031 !important;
+  margin-right: 60px;
+  color: hsl(300, 1%, 19%) !important;
 }
 
 .card-width {
   width: 35rem;
 }
 
-.card-margin{
+.card-margin {
   margin-bottom: 30px;
 }
 
 .card-body {
   border-color: black;
-  color: #313031;
+  color: hsl(300, 1%, 19%);
 }
 
-.vertical-group{
+.vertical-group {
   margin-bottom: 30px;
 }
 
-.welcome-text{
+.welcome-text {
   text-align: center;
   margin-bottom: 40px;
 }
 
 .Login-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-    margin-top: -60px;
-    margin-bottom: -150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  margin-top: -60px;
+  margin-bottom: -150px;
 }
 
 .login-logo {
-    max-width: 40%;
-    max-height: 40%;
-    width: auto;
-    height: auto;
+  max-width: 40%;
+  max-height: 40%;
+  width: auto;
+  height: auto;
 }
 
 .custom-input {
@@ -65,7 +64,7 @@ button {
   justify-content: center;
   align-items: center;
   width: 50%;
-  font-size: 16px; 
+  font-size: 16px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -106,7 +105,7 @@ h6 {
   transform: translate(-50%, -50%);
   background: #fff;
   padding: 20px;
-  border: 1px solid lightgray;
+  border: 1px solid hsl(0, 0%, 83%);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   z-index: 9999;
   border-radius: 5px;
@@ -114,32 +113,39 @@ h6 {
 
 .close-btn {
   position: absolute;
-    top: 2.5px;
-    right: 10px;
-    cursor: pointer;
-    color: lightgray;
+  top: 2.5px;
+  right: 10px;
+  cursor: pointer;
+  color: hsl(0, 0%, 83%);
 }
 
-input[type='radio'] {
+input[type="radio"] {
   box-sizing: border-box;
   appearance: none;
   background: white;
-  outline: 1px solid lightgray;
+  outline: 1px solid hsl(0, 0%, 83%);
   border: 1px solid white;
   width: 16px;
   height: 16px;
 }
 
-input[type='radio']:checked {
+input[type="radio"]:checked {
   background: #333;
 }
 
-.experience-container{
-  border: 1px solid lightgray;
+.experience-container {
+  border: 1px solid hsl(0, 0%, 83%);
   padding: 10px;
   border-radius: 5px;
   position: relative;
   left: -120px;
   background: white;
 }
-/* Color found for comment boxes: /* #313031 */ 
+/* Color found for comment boxes:  #313031 
+HSL colorcodes: 
+Orange: hsl(25, 68%, 50%)
+Beige(Backgroundcolor): hsl(27, 26%, 92%)
+Grey(Navbar): hsl(24, 8%, 88%)
+Black (Text): hsl(300, 1%, 19%)
+
+LightGray: hsl(0, 0%, 83%)*/

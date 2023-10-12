@@ -11,6 +11,10 @@ button {
   border-color: hsl(25, 68%, 50%) !important;
 }
 
+a {
+  color: hsl(25, 68%, 50%) !important;
+}
+
 .custom-navbar {
   border-bottom: 1px solid hsl(0, 0%, 83%);
   background-color: hsl(24, 8%, 88%);
@@ -77,6 +81,17 @@ button {
   text-align: center;
 }
 
+.secondary-button {
+  width: 50%;
+  display: block !important;
+  margin: 10px auto;
+  align-self: center;
+  text-align: center;
+  color: hsl(27, 26%, 92%) !important;
+  background-color: hsl(25, 68%, 70%) !important;
+  border-color: hsl(25, 68%, 70%) !important;
+}
+
 .input-container {
   display: flex;
   flex-direction: column;
@@ -140,6 +155,24 @@ input[type="radio"]:checked {
   position: relative;
   left: -120px;
   background: white;
+}
+
+#exampleInputFirstName{
+  margin-bottom: -5%;
+}
+
+#exampleInputPassword2{
+  margin-bottom: -5%;
+}
+
+h6 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#errorMessage{
+  text-align: center;
+  color: hsl(9, 68%, 50%);
 }
 /* Color found for comment boxes:  #313031 
 HSL colorcodes: 

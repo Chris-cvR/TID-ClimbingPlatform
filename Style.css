@@ -117,11 +117,12 @@ button {
 
 .input:focus {
   outline: none;
-  /* Remove the default outline */
   border-color: #E3E0de;
-  /* Change the border color when focused */
   box-shadow: 0 0 0 0.2rem #E3E0de;
-  /* Change the box shadow when focused */
+}
+
+input[type="search"] {
+  width: 245px;
 }
 
 h6 {
@@ -151,13 +152,13 @@ h6 {
   border-radius: 5px;
 } */
 
-.close-btn {
+/* .close-btn {
   position: absolute;
   top: 2.5px;
   right: 10px;
   cursor: pointer;
   color: hsl(0, 0%, 83%);
-}
+} */
 
 input[type="radio"] {
   box-sizing: border-box;

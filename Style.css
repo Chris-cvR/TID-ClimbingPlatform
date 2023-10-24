@@ -45,18 +45,18 @@ button {
   font-size: 30px;
 }
 
-#likes-container{
+#likes-container {
   text-align: center;
 }
 
 #location-details {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 300px auto;
   grid-gap: 5px;
 }
 
 #location-details h6 {
-  text-align: right;
+  text-align: left;
 }
 
 .vertical-group {
@@ -137,8 +137,8 @@ button {
 
 .input:focus {
   outline: none;
-  border-color: #E3E0de;
-  box-shadow: 0 0 0 0.2rem #E3E0de;
+  border-color: #e3e0de;
+  box-shadow: 0 0 0 0.2rem #e3e0de;
 }
 
 input[type="search"] {
@@ -219,11 +219,11 @@ input[type="checkbox"]:checked {
   background: white;
 }
 
-#exampleInputFirstName{
+#exampleInputFirstName {
   margin-bottom: -5%;
 }
 
-#exampleInputPassword2{
+#exampleInputPassword2 {
   margin-bottom: -5%;
 }
 
@@ -232,7 +232,7 @@ h6 {
   margin-top: 40px;
 }
 
-#errorMessage{
+#errorMessage {
   text-align: center;
   color: hsl(9, 68%, 50%);
 }
